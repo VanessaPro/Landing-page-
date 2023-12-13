@@ -95,7 +95,7 @@ header{
     color: var(--text-color);
 }
 
-
+/* Quando é id colocar a tag # */
 #menu-icon{
     font-size: 40px;
     color: var(--text-color);

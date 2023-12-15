@@ -18,3 +18,4 @@ menu.onclick = () => {
     menu.classList.toggle ('bx-x');
     Links.classList.toggle ('open');
 };
+

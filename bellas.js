@@ -10,3 +10,11 @@ darkmode.onclick = () => {
         document.body.classList.remove('color');
     }
 };
+
+let menu = document.querySelector("#menu-icon");
+let links = document.querySelector('.Links')
+
+menu.onclick = () => {
+    menu.classList.toggle ('bx-x');
+    Links.classList.toggle ('open');
+};

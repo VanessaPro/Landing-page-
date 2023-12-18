@@ -23,6 +23,6 @@ menu.onclick = () => {
 
 window.onscroll = () => {
     menu.classList.remove ('bx-x');
-    Links.classList.remove('open');
+    links.classList.remove('open');
 };
 

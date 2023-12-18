@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -173,15 +175,21 @@ section{
     border-radius: 1rem;
     box-shadow: rgba(33,35,38,0.1) 0px 10px 10px -10px;
     transition: all ease .55s;
+    transform: perspective(800px);
     cursor: pointer;
     margin-bottom: 2rem;
+    
+   
 
 }
 
 .box img{
     max-width: 100%;
     height: auto;
+    
 }
+
+
 
 .box h3{
     font-size: 30px;
@@ -197,7 +205,11 @@ section{
 }
 
 .box:hover{
-    transform: translateY(-5px) scale(1.1);
+    transform: translateY(-4px) scale(1.1);
+   
+    
+    
+    
 }
 
 body.color{

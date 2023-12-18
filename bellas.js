@@ -1,3 +1,5 @@
+
+
 let darkmode = document.querySelector("#darkmode");
 
 
@@ -16,6 +18,11 @@ let links = document.querySelector('.Links')
 
 menu.onclick = () => {
     menu.classList.toggle ('bx-x');
-    Links.classList.toggle ('open');
+    links.classList.toggle ('open');
+};
+
+window.onscroll = () => {
+    menu.classList.remove ('bx-x');
+    Links.classList.remove('open');
 };
 
